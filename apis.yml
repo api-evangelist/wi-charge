@@ -1,8 +1,29 @@
 aid: wi-charge
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wi-charge.png
 name: Wi Charge
-description: Wi Charge is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Wi-Charge is a long-range wireless power company that transmits electricity
+  over the air using infrared light, delivering safe, automatic charging to
+  smart devices from thirty or more feet away without cables, batteries, or
+  charging pads. The company sells consumer products such as the Encode Wireless
+  Power Kit for smart locks and licenses its transmitter platform and compact
+  receiver modules to OEMs building smart-home, commercial, IoT, retail, and
+  consumer-electronics devices. Wi-Charge is venture-backed, including by
+  Lightspeed Venture Partners. This profile was surfaced as a portfolio-company
+  lead and enriched by the API Evangelist pipeline; as of this pass Wi-Charge
+  publishes no public developer API, SDK, or developer portal — it is a hardware
+  and OEM-licensing business rather than an API-first provider.
 url: https://raw.githubusercontent.com/api-evangelist/wi-charge/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Wireless Power
+- Wireless Charging
+- Infrared
+- IoT
+- Smart Home
+- Hardware
+- OEM
+- Consumer Electronics
+- Energy
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/wi-charge-domain-security.yml
+- type: Website
+  url: https://wi-charge.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
